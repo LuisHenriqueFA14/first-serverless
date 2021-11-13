@@ -1,0 +1,16 @@
+service: first-serverless
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  region: sa-east-1
+  memorySize: 256
+
+functions:
+  sum:
+    handler: handler.sum
+  subtract:
+    handler: handler.subtract
