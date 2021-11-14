@@ -32,7 +32,7 @@ Result:
 ```
 
 <br>
----
+<hr>
 <br>
 
 Command:
